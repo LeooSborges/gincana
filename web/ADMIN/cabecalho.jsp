@@ -24,8 +24,11 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">
+          <h4 style="font-weight: bold">IFSul</h4>
+        <!--
         <img class="navbar-brand-full" src="../img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
         <img class="navbar-brand-minimized" src="../img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo">
+        -->
       </a>
       <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
         <span class="navbar-toggler-icon"></span>
@@ -41,33 +44,38 @@
      
     </header>
     <div class="app-body">
-      <div class="sidebar">
+      <div class="sidebar" style="background-color: #20a8d8">
         <nav class="sidebar-nav">
           <ul class="nav">
             
-            <li class="nav-item ">
+              <li class="nav-item ">
               <a class="nav-link" href="../jogos/JogosWS">
-                <i class="nav-icon icon-cursor"></i> Jogos
+                  <i class="nav-icon icon-cursor"></i> Turma
               </a>
               
             </li>
             <li class="nav-item ">
               <a class="nav-link" href="../plataforma/PlataformaWS">
-                <i class="nav-icon icon-cursor"></i> Plataforma
+                <i class="nav-icon icon-cursor"></i> Atividade
               </a>
               
             </li>
             <li class="nav-item ">
               <a class="nav-link" href="../genero/GeneroWS">
-                <i class="nav-icon icon-cursor"></i> Genero
+                <i class="nav-icon icon-cursor"></i> Ano
               </a>
               
             </li>
-             <li class="nav-item ">
+            <li class="nav-item ">
               <a class="nav-link" href="../desenvolvedora/DesenvolvedoraWS">
-                <i class="nav-icon icon-cursor"></i> Desenvolvedora
+                <i class="nav-icon icon-cursor"></i> Pontuação
               </a>
-       
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="../desenvolvedora/DesenvolvedoraWS">
+                <i class="nav-icon icon-cursor"></i> Colocação
+              </a>
+            </li>
           </ul>
         </nav>
         <button class="sidebar-minimizer brand-minimizer" type="button"></button>
