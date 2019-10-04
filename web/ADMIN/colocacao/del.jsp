@@ -2,12 +2,12 @@
 <main class="main">
     <!-- Breadcrumb-->
     <ol class="breadcrumb">
-        <li class="breadcrumb-item">Jogos</li>
+        <li class="breadcrumb-item">Colocacao</li>
         <li class="breadcrumb-item">
-            <a href="JogosWS">Listar</a>
+            <a href="ColocacaoWS">Listar</a>
         </li>
         <li class="breadcrumb-item">
-            <a href="add.jsp">Incluir</a>
+            <a href="ColocacaoWS?acao=add">Incluir</a>
         </li>
 
     </ol>
@@ -16,10 +16,10 @@
            <div class="row">
               <div class="col-lg-auto">
                 <div class="card">
-                  <div class="card-header">
-                    Alteração
+                  <div class="card-header" style="background-color: #3ea662; color: white; font-weight: bold">
+                    Exclusão
                   </div>
-                  <div class="card-body">
+                  <div class="card-body" style="color: #3ea662">
                    ${msg}
                   </div>
                 </div>

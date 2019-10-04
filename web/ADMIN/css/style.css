@@ -179,14 +179,14 @@ sup {
 }
 
 a {
-  color: #20a8d8;
+  color: #3ea662;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #167495;
+  color: #3a9d5d;
   text-decoration: underline;
 }
 
@@ -1861,9 +1861,9 @@ pre code {
 .form-control:focus {
   color: #5c6873;
   background-color: #fff;
-  border-color: #8ad4ee;
+  border-color: #4dbd74;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(32, 168, 216, 0.25);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .form-control::-webkit-input-placeholder {
@@ -2376,36 +2376,36 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #20a8d8;
-  border-color: #20a8d8;
+  background-color: #4dbd74;
+  border-color: #4dbd74;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #1b8eb7;
-  border-color: #1985ac;
+  background-color: #3ea662;
+  border-color: #3a9d5d;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(32, 168, 216, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #20a8d8;
-  border-color: #20a8d8;
+  background-color: #4dbd74;
+  border-color: #4dbd74;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #1985ac;
-  border-color: #187da0;
+  background-color: #4dbd74;
+  border-color: #4dbd74;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(32, 168, 216, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-secondary {
@@ -2421,7 +2421,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(200, 206, 211, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-secondary.disabled, .btn-secondary:disabled {
@@ -2439,7 +2439,7 @@ fieldset:disabled a.btn {
 
 .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(200, 206, 211, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-success {
@@ -2455,7 +2455,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-success:focus, .btn-success.focus {
-  box-shadow: 0 0 0 0.2rem rgba(77, 189, 116, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-success.disabled, .btn-success:disabled {
@@ -2473,7 +2473,7 @@ fieldset:disabled a.btn {
 
 .btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
 .show > .btn-success.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(77, 189, 116, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-info {
@@ -2489,7 +2489,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-info:focus, .btn-info.focus {
-  box-shadow: 0 0 0 0.2rem rgba(99, 194, 222, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-info.disabled, .btn-info:disabled {
@@ -2507,7 +2507,7 @@ fieldset:disabled a.btn {
 
 .btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
 .show > .btn-info.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(99, 194, 222, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-warning {
@@ -2523,7 +2523,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-warning:focus, .btn-warning.focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-warning.disabled, .btn-warning:disabled {
@@ -2541,7 +2541,7 @@ fieldset:disabled a.btn {
 
 .btn-warning:not(:disabled):not(.disabled):active:focus, .btn-warning:not(:disabled):not(.disabled).active:focus,
 .show > .btn-warning.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-danger {
@@ -2557,7 +2557,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-danger:focus, .btn-danger.focus {
-  box-shadow: 0 0 0 0.2rem rgba(248, 108, 107, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-danger.disabled, .btn-danger:disabled {
@@ -2575,7 +2575,7 @@ fieldset:disabled a.btn {
 
 .btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus,
 .show > .btn-danger.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(248, 108, 107, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-light {
@@ -2591,7 +2591,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-light:focus, .btn-light.focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 243, 245, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-light.disabled, .btn-light:disabled {
@@ -2609,7 +2609,7 @@ fieldset:disabled a.btn {
 
 .btn-light:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus,
 .show > .btn-light.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 243, 245, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-dark {
@@ -2625,7 +2625,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-dark:focus, .btn-dark.focus {
-  box-shadow: 0 0 0 0.2rem rgba(47, 53, 58, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-dark.disabled, .btn-dark:disabled {
@@ -2643,7 +2643,7 @@ fieldset:disabled a.btn {
 
 .btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus,
 .show > .btn-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(47, 53, 58, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-primary {
@@ -2660,7 +2660,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(32, 168, 216, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
@@ -2677,7 +2677,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(32, 168, 216, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-secondary {
@@ -2694,7 +2694,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(200, 206, 211, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
@@ -2711,7 +2711,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(200, 206, 211, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-success {
@@ -2728,7 +2728,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-success:focus, .btn-outline-success.focus {
-  box-shadow: 0 0 0 0.2rem rgba(77, 189, 116, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-success.disabled, .btn-outline-success:disabled {
@@ -2745,7 +2745,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-success.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(77, 189, 116, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-info {
@@ -2762,7 +2762,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-info:focus, .btn-outline-info.focus {
-  box-shadow: 0 0 0 0.2rem rgba(99, 194, 222, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-info.disabled, .btn-outline-info:disabled {
@@ -2779,7 +2779,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-info:not(:disabled):not(.disabled):active:focus, .btn-outline-info:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-info.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(99, 194, 222, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-warning {
@@ -2796,7 +2796,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-warning:focus, .btn-outline-warning.focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-warning.disabled, .btn-outline-warning:disabled {
@@ -2813,7 +2813,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-warning:not(:disabled):not(.disabled):active:focus, .btn-outline-warning:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-warning.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-danger {
@@ -2830,7 +2830,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-danger:focus, .btn-outline-danger.focus {
-  box-shadow: 0 0 0 0.2rem rgba(248, 108, 107, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-danger.disabled, .btn-outline-danger:disabled {
@@ -2847,7 +2847,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-danger:not(:disabled):not(.disabled):active:focus, .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-danger.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(248, 108, 107, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-light {
@@ -2864,7 +2864,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light:focus, .btn-outline-light.focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 243, 245, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-light.disabled, .btn-outline-light:disabled {
@@ -2881,7 +2881,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-light:not(:disabled):not(.disabled):active:focus, .btn-outline-light:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-light.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 243, 245, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-dark {
@@ -2898,7 +2898,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark:focus, .btn-outline-dark.focus {
-  box-shadow: 0 0 0 0.2rem rgba(47, 53, 58, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-outline-dark.disabled, .btn-outline-dark:disabled {
@@ -2915,7 +2915,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(47, 53, 58, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-link {
@@ -3515,7 +3515,7 @@ input[type="button"].btn-block {
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 1px #e4e5e6, 0 0 0 0.2rem rgba(32, 168, 216, 0.25);
+  box-shadow: 0 0 0 1px #e4e5e6, 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .custom-control-input:active ~ .custom-control-label::before {
@@ -3628,7 +3628,7 @@ input[type="button"].btn-block {
 .custom-select:focus {
   border-color: #8ad4ee;
   outline: 0;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 5px rgba(138, 212, 238, 0.5);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 5px rgb(77, 189, 116);
 }
 
 .custom-select:focus::-ms-value {
@@ -3684,7 +3684,7 @@ input[type="button"].btn-block {
 
 .custom-file-input:focus ~ .custom-file-label {
   border-color: #8ad4ee;
-  box-shadow: 0 0 0 0.2rem rgba(32, 168, 216, 0.25);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .custom-file-input:focus ~ .custom-file-label::after {
@@ -3757,7 +3757,7 @@ input[type="button"].btn-block {
 
 .custom-range::-webkit-slider-thumb:focus {
   outline: none;
-  box-shadow: 0 0 0 1px #e4e5e6, 0 0 0 0.2rem rgba(32, 168, 216, 0.25);
+  box-shadow: 0 0 0 1px #e4e5e6, 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .custom-range::-webkit-slider-thumb:active {
@@ -3786,7 +3786,7 @@ input[type="button"].btn-block {
 
 .custom-range::-moz-range-thumb:focus {
   outline: none;
-  box-shadow: 0 0 0 1px #e4e5e6, 0 0 0 0.2rem rgba(32, 168, 216, 0.25);
+  box-shadow: 0 0 0 1px #e4e5e6, 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .custom-range::-moz-range-thumb:active {
@@ -3814,7 +3814,7 @@ input[type="button"].btn-block {
 
 .custom-range::-ms-thumb:focus {
   outline: none;
-  box-shadow: 0 0 0 1px #e4e5e6, 0 0 0 0.2rem rgba(32, 168, 216, 0.25);
+  box-shadow: 0 0 0 1px #e4e5e6, 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .custom-range::-ms-thumb:active {
@@ -4672,7 +4672,7 @@ input[type="button"].btn-block {
 .page-link:focus {
   z-index: 2;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(32, 168, 216, 0.25);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .page-link:not(:disabled):not(.disabled) {
@@ -7331,15 +7331,15 @@ button.bg-dark:focus {
 }
 
 .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: 0 0.125rem 0.25rem rgb(77, 189, 116) !important;
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgb(77, 189, 116)) !important;
 }
 
 .shadow-lg {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  box-shadow: 0 1rem 3rem rgb(77, 189, 116) !important;
 }
 
 .shadow-none {
@@ -9433,7 +9433,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-facebook:focus, .btn-facebook.focus {
-  box-shadow: 0 0 0 0.2rem rgba(59, 89, 152, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-facebook.disabled, .btn-facebook:disabled {
@@ -9451,7 +9451,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-facebook:not(:disabled):not(.disabled):active:focus, .btn-facebook:not(:disabled):not(.disabled).active:focus,
 .show > .btn-facebook.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(59, 89, 152, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-twitter {
@@ -9467,7 +9467,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-twitter:focus, .btn-twitter.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 172, 237, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-twitter.disabled, .btn-twitter:disabled {
@@ -9485,7 +9485,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-twitter:not(:disabled):not(.disabled):active:focus, .btn-twitter:not(:disabled):not(.disabled).active:focus,
 .show > .btn-twitter.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 172, 237, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-linkedin {
@@ -9501,7 +9501,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-linkedin:focus, .btn-linkedin.focus {
-  box-shadow: 0 0 0 0.2rem rgba(72, 117, 180, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-linkedin.disabled, .btn-linkedin:disabled {
@@ -9519,7 +9519,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-linkedin:not(:disabled):not(.disabled):active:focus, .btn-linkedin:not(:disabled):not(.disabled).active:focus,
 .show > .btn-linkedin.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(72, 117, 180, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-google-plus {
@@ -9535,7 +9535,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-google-plus:focus, .btn-google-plus.focus {
-  box-shadow: 0 0 0 0.2rem rgba(211, 72, 54, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-google-plus.disabled, .btn-google-plus:disabled {
@@ -9553,7 +9553,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-google-plus:not(:disabled):not(.disabled):active:focus, .btn-google-plus:not(:disabled):not(.disabled).active:focus,
 .show > .btn-google-plus.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(211, 72, 54, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-flickr {
@@ -9569,7 +9569,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-flickr:focus, .btn-flickr.focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 0, 132, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-flickr.disabled, .btn-flickr:disabled {
@@ -9587,7 +9587,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-flickr:not(:disabled):not(.disabled):active:focus, .btn-flickr:not(:disabled):not(.disabled).active:focus,
 .show > .btn-flickr.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 0, 132, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-tumblr {
@@ -9603,7 +9603,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-tumblr:focus, .btn-tumblr.focus {
-  box-shadow: 0 0 0 0.2rem rgba(50, 80, 109, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-tumblr.disabled, .btn-tumblr:disabled {
@@ -9621,7 +9621,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-tumblr:not(:disabled):not(.disabled):active:focus, .btn-tumblr:not(:disabled):not(.disabled).active:focus,
 .show > .btn-tumblr.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(50, 80, 109, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-xing {
@@ -9637,7 +9637,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-xing:focus, .btn-xing.focus {
-  box-shadow: 0 0 0 0.2rem rgba(2, 100, 102, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-xing.disabled, .btn-xing:disabled {
@@ -9655,7 +9655,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-xing:not(:disabled):not(.disabled):active:focus, .btn-xing:not(:disabled):not(.disabled).active:focus,
 .show > .btn-xing.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(2, 100, 102, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-github {
@@ -9671,7 +9671,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-github:focus, .btn-github.focus {
-  box-shadow: 0 0 0 0.2rem rgba(65, 131, 196, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-github.disabled, .btn-github:disabled {
@@ -9689,7 +9689,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-github:not(:disabled):not(.disabled):active:focus, .btn-github:not(:disabled):not(.disabled).active:focus,
 .show > .btn-github.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(65, 131, 196, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-html5 {
@@ -9705,7 +9705,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-html5:focus, .btn-html5.focus {
-  box-shadow: 0 0 0 0.2rem rgba(227, 79, 38, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-html5.disabled, .btn-html5:disabled {
@@ -9723,7 +9723,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-html5:not(:disabled):not(.disabled):active:focus, .btn-html5:not(:disabled):not(.disabled).active:focus,
 .show > .btn-html5.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(227, 79, 38, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-openid {
@@ -9739,7 +9739,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-openid:focus, .btn-openid.focus {
-  box-shadow: 0 0 0 0.2rem rgba(247, 140, 64, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-openid.disabled, .btn-openid:disabled {
@@ -9757,7 +9757,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-openid:not(:disabled):not(.disabled):active:focus, .btn-openid:not(:disabled):not(.disabled).active:focus,
 .show > .btn-openid.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(247, 140, 64, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-stack-overflow {
@@ -9773,7 +9773,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-stack-overflow:focus, .btn-stack-overflow.focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 122, 21, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-stack-overflow.disabled, .btn-stack-overflow:disabled {
@@ -9791,7 +9791,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-stack-overflow:not(:disabled):not(.disabled):active:focus, .btn-stack-overflow:not(:disabled):not(.disabled).active:focus,
 .show > .btn-stack-overflow.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 122, 21, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-youtube {
@@ -9807,7 +9807,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-youtube:focus, .btn-youtube.focus {
-  box-shadow: 0 0 0 0.2rem rgba(187, 0, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-youtube.disabled, .btn-youtube:disabled {
@@ -9825,7 +9825,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-youtube:not(:disabled):not(.disabled):active:focus, .btn-youtube:not(:disabled):not(.disabled).active:focus,
 .show > .btn-youtube.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(187, 0, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-css3 {
@@ -9841,7 +9841,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-css3:focus, .btn-css3.focus {
-  box-shadow: 0 0 0 0.2rem rgba(1, 112, 186, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-css3.disabled, .btn-css3:disabled {
@@ -9859,7 +9859,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-css3:not(:disabled):not(.disabled):active:focus, .btn-css3:not(:disabled):not(.disabled).active:focus,
 .show > .btn-css3.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(1, 112, 186, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-dribbble {
@@ -9875,7 +9875,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-dribbble:focus, .btn-dribbble.focus {
-  box-shadow: 0 0 0 0.2rem rgba(234, 76, 137, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-dribbble.disabled, .btn-dribbble:disabled {
@@ -9893,7 +9893,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-dribbble:not(:disabled):not(.disabled):active:focus, .btn-dribbble:not(:disabled):not(.disabled).active:focus,
 .show > .btn-dribbble.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(234, 76, 137, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-instagram {
@@ -9909,7 +9909,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-instagram:focus, .btn-instagram.focus {
-  box-shadow: 0 0 0 0.2rem rgba(81, 127, 164, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-instagram.disabled, .btn-instagram:disabled {
@@ -9927,7 +9927,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-instagram:not(:disabled):not(.disabled):active:focus, .btn-instagram:not(:disabled):not(.disabled).active:focus,
 .show > .btn-instagram.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(81, 127, 164, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-pinterest {
@@ -9943,7 +9943,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-pinterest:focus, .btn-pinterest.focus {
-  box-shadow: 0 0 0 0.2rem rgba(203, 32, 39, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-pinterest.disabled, .btn-pinterest:disabled {
@@ -9961,7 +9961,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-pinterest:not(:disabled):not(.disabled):active:focus, .btn-pinterest:not(:disabled):not(.disabled).active:focus,
 .show > .btn-pinterest.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(203, 32, 39, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-vk {
@@ -9977,7 +9977,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-vk:focus, .btn-vk.focus {
-  box-shadow: 0 0 0 0.2rem rgba(69, 102, 142, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-vk.disabled, .btn-vk:disabled {
@@ -9995,7 +9995,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-vk:not(:disabled):not(.disabled):active:focus, .btn-vk:not(:disabled):not(.disabled).active:focus,
 .show > .btn-vk.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(69, 102, 142, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-yahoo {
@@ -10011,7 +10011,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-yahoo:focus, .btn-yahoo.focus {
-  box-shadow: 0 0 0 0.2rem rgba(64, 1, 145, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-yahoo.disabled, .btn-yahoo:disabled {
@@ -10029,7 +10029,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-yahoo:not(:disabled):not(.disabled):active:focus, .btn-yahoo:not(:disabled):not(.disabled).active:focus,
 .show > .btn-yahoo.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(64, 1, 145, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-behance {
@@ -10045,7 +10045,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-behance:focus, .btn-behance.focus {
-  box-shadow: 0 0 0 0.2rem rgba(23, 105, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-behance.disabled, .btn-behance:disabled {
@@ -10063,7 +10063,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-behance:not(:disabled):not(.disabled):active:focus, .btn-behance:not(:disabled):not(.disabled).active:focus,
 .show > .btn-behance.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(23, 105, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-dropbox {
@@ -10079,7 +10079,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-dropbox:focus, .btn-dropbox.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 126, 229, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-dropbox.disabled, .btn-dropbox:disabled {
@@ -10097,7 +10097,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-dropbox:not(:disabled):not(.disabled):active:focus, .btn-dropbox:not(:disabled):not(.disabled).active:focus,
 .show > .btn-dropbox.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 126, 229, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-reddit {
@@ -10113,7 +10113,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-reddit:focus, .btn-reddit.focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 69, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-reddit.disabled, .btn-reddit:disabled {
@@ -10131,7 +10131,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-reddit:not(:disabled):not(.disabled):active:focus, .btn-reddit:not(:disabled):not(.disabled).active:focus,
 .show > .btn-reddit.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 69, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-spotify {
@@ -10147,7 +10147,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-spotify:focus, .btn-spotify.focus {
-  box-shadow: 0 0 0 0.2rem rgba(122, 184, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-spotify.disabled, .btn-spotify:disabled {
@@ -10165,7 +10165,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-spotify:not(:disabled):not(.disabled):active:focus, .btn-spotify:not(:disabled):not(.disabled).active:focus,
 .show > .btn-spotify.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(122, 184, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-vine {
@@ -10181,7 +10181,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-vine:focus, .btn-vine.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 191, 143, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-vine.disabled, .btn-vine:disabled {
@@ -10199,7 +10199,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-vine:not(:disabled):not(.disabled):active:focus, .btn-vine:not(:disabled):not(.disabled).active:focus,
 .show > .btn-vine.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 191, 143, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-foursquare {
@@ -10215,7 +10215,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-foursquare:focus, .btn-foursquare.focus {
-  box-shadow: 0 0 0 0.2rem rgba(16, 115, 175, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-foursquare.disabled, .btn-foursquare:disabled {
@@ -10233,7 +10233,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-foursquare:not(:disabled):not(.disabled):active:focus, .btn-foursquare:not(:disabled):not(.disabled).active:focus,
 .show > .btn-foursquare.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(16, 115, 175, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-vimeo {
@@ -10249,7 +10249,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-vimeo:focus, .btn-vimeo.focus {
-  box-shadow: 0 0 0 0.2rem rgba(170, 212, 80, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-vimeo.disabled, .btn-vimeo:disabled {
@@ -10267,7 +10267,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-vimeo:not(:disabled):not(.disabled):active:focus, .btn-vimeo:not(:disabled):not(.disabled).active:focus,
 .show > .btn-vimeo.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(170, 212, 80, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 button {
@@ -10309,7 +10309,7 @@ button {
 }
 
 .btn-ghost-primary:focus, .btn-ghost-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(32, 168, 216, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-primary.disabled, .btn-ghost-primary:disabled {
@@ -10327,7 +10327,7 @@ button {
 
 .btn-ghost-primary:not(:disabled):not(.disabled):active:focus, .btn-ghost-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-ghost-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(32, 168, 216, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-secondary {
@@ -10344,7 +10344,7 @@ button {
 }
 
 .btn-ghost-secondary:focus, .btn-ghost-secondary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(200, 206, 211, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-secondary.disabled, .btn-ghost-secondary:disabled {
@@ -10362,7 +10362,7 @@ button {
 
 .btn-ghost-secondary:not(:disabled):not(.disabled):active:focus, .btn-ghost-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-ghost-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(200, 206, 211, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-success {
@@ -10379,7 +10379,7 @@ button {
 }
 
 .btn-ghost-success:focus, .btn-ghost-success.focus {
-  box-shadow: 0 0 0 0.2rem rgba(77, 189, 116, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-success.disabled, .btn-ghost-success:disabled {
@@ -10397,7 +10397,7 @@ button {
 
 .btn-ghost-success:not(:disabled):not(.disabled):active:focus, .btn-ghost-success:not(:disabled):not(.disabled).active:focus,
 .show > .btn-ghost-success.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(77, 189, 116, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-info {
@@ -10414,7 +10414,7 @@ button {
 }
 
 .btn-ghost-info:focus, .btn-ghost-info.focus {
-  box-shadow: 0 0 0 0.2rem rgba(99, 194, 222, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-info.disabled, .btn-ghost-info:disabled {
@@ -10432,7 +10432,7 @@ button {
 
 .btn-ghost-info:not(:disabled):not(.disabled):active:focus, .btn-ghost-info:not(:disabled):not(.disabled).active:focus,
 .show > .btn-ghost-info.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(99, 194, 222, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-warning {
@@ -10449,7 +10449,7 @@ button {
 }
 
 .btn-ghost-warning:focus, .btn-ghost-warning.focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-warning.disabled, .btn-ghost-warning:disabled {
@@ -10467,7 +10467,7 @@ button {
 
 .btn-ghost-warning:not(:disabled):not(.disabled):active:focus, .btn-ghost-warning:not(:disabled):not(.disabled).active:focus,
 .show > .btn-ghost-warning.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-danger {
@@ -10484,7 +10484,7 @@ button {
 }
 
 .btn-ghost-danger:focus, .btn-ghost-danger.focus {
-  box-shadow: 0 0 0 0.2rem rgba(248, 108, 107, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-danger.disabled, .btn-ghost-danger:disabled {
@@ -10502,7 +10502,7 @@ button {
 
 .btn-ghost-danger:not(:disabled):not(.disabled):active:focus, .btn-ghost-danger:not(:disabled):not(.disabled).active:focus,
 .show > .btn-ghost-danger.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(248, 108, 107, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-light {
@@ -10519,7 +10519,7 @@ button {
 }
 
 .btn-ghost-light:focus, .btn-ghost-light.focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 243, 245, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-light.disabled, .btn-ghost-light:disabled {
@@ -10537,7 +10537,7 @@ button {
 
 .btn-ghost-light:not(:disabled):not(.disabled):active:focus, .btn-ghost-light:not(:disabled):not(.disabled).active:focus,
 .show > .btn-ghost-light.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 243, 245, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-dark {
@@ -10554,7 +10554,7 @@ button {
 }
 
 .btn-ghost-dark:focus, .btn-ghost-dark.focus {
-  box-shadow: 0 0 0 0.2rem rgba(47, 53, 58, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .btn-ghost-dark.disabled, .btn-ghost-dark:disabled {
@@ -10572,7 +10572,7 @@ button {
 
 .btn-ghost-dark:not(:disabled):not(.disabled):active:focus, .btn-ghost-dark:not(:disabled):not(.disabled).active:focus,
 .show > .btn-ghost-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(47, 53, 58, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(77, 189, 116);
 }
 
 .callout {
@@ -11580,7 +11580,7 @@ canvas {
   width: 1.09375rem;
   margin: 0 0.5rem 0 0;
   font-size: 0.875rem;
-  color: #73818f;
+  color: #fff;
   text-align: center;
 }
 
@@ -11595,7 +11595,8 @@ canvas {
 }
 
 .sidebar .nav-link.active .nav-icon {
-  color: #20a8d8;
+  color: #12770d;
+  font-weight: bold;
 }
 
 .sidebar .nav-link:hover {
@@ -12192,7 +12193,7 @@ canvas {
   height: 26px;
   border: 0;
   border-radius: 50em;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgb(77, 189, 116);
 }
 
 .switch-3d.switch-lg {

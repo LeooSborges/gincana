@@ -2,9 +2,9 @@
 <main class="main">
     <!-- Breadcrumb-->
     <ol class="breadcrumb">
-        <li class="breadcrumb-item">Genero</li>
+        <li class="breadcrumb-item">Turma</li>
         <li class="breadcrumb-item">
-            <a href="GeneroWS">Listar</a>
+            <a href="TurmaWS">Listar</a>
         </li>
         <li class="breadcrumb-item">
             <a href="add.jsp">Incluir</a>

@@ -6,16 +6,23 @@
 package modelo;
 
 import java.io.Serializable;
+import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
 
 /**
  *
  * @author Leo Borges
  */
 @Entity
+@NamedQueries({
+    @NamedQuery(name = "Ano.findAll", query = "SELECT a FROM Ano a")
+})
 public class Ano implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -24,6 +31,8 @@ public class Ano implements Serializable {
     private Integer id;
     private Integer ano;
 
+    @OneToMany(mappedBy = "ano")
+    private List<Pontuacao> pontuacoes;
     
     public Integer getId() {
         return id;
@@ -64,6 +73,14 @@ public class Ano implements Serializable {
 
     public void setAno(Integer ano) {
         this.ano = ano;
+    }
+
+    public List<Pontuacao> getPontuacoes() {
+        return pontuacoes;
+    }
+
+    public void setPontuacoes(List<Pontuacao> pontuacoes) {
+        this.pontuacoes = pontuacoes;
     }
     
 }

@@ -5,6 +5,7 @@
  */
 package dao;
 
+import java.util.List;
 import modelo.Ano;
 
 /**
@@ -16,5 +17,7 @@ public class AnoDAO extends GenericDAO<Ano, Integer>{
     public AnoDAO(){
         super(Ano.class);
     }
-    
+        public List<Ano> listar(String filtro){
+        return em.createNamedQuery("Ano.findFilter").setParameter("filtro","%" + filtro.toUpperCase() + "%").getResultList();
+    } 
 }

@@ -5,6 +5,7 @@
  */
 package dao;
 
+import java.util.List;
 import modelo.Pontuacao;
 
 /**
@@ -15,6 +16,10 @@ public class PontuacaoDAO extends GenericDAO<Pontuacao, Integer>{
     
     public PontuacaoDAO(){
         super(Pontuacao.class);
+    }
+    
+        public List<Pontuacao> listar(String filtro){
+        return em.createNamedQuery("Pontuacao.findFilter").setParameter("filtro","%" + filtro.toUpperCase() + "%").getResultList();
     }
     
 }

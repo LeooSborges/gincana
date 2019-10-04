@@ -4,57 +4,39 @@
 <main class="main">
     <!-- Breadcrumb-->
     <ol class="breadcrumb">
-        <li class="breadcrumb-item">Desenvolvedora</li>
+        <li class="breadcrumb-item">Ano</li>
         <li class="breadcrumb-item">
-            <a href="DesenvolvedoraWS">Listar</a>
+            <a href="AnoWS">Listar</a>
         </li>
 
     </ol>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-4">
                 <div class="card">
-                    <div class="card-header">
-
-                        <form action="DesenvolvedoraWS" method="get" class="form-horizontal">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="input-group">
-                                        <span class="input-group-prepend">
-                                            <button type="submit" class="btn btn-primary">
-                                                <i class="fa fa-search"></i> &nbsp;</button>
-                                        </span>
-                                       <input type="text" id="input1-group2" name="txtFiltro" class="form-control" placeholder="digite a pesquisa">
-                                        
-                                       
-                                       <!-- indica pro servlet que a ação é um filtro --> 
-                                       <input type="hidden" name="acao" value="filter" />
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                    
                     <div class="card-body">
                         <table class="table table-responsive-sm">
-                            <thead>
+                            <thead  style="background-color: #3ea662">
                                 <tr>
-                                    <th>ID</th>
-                                    <th>Nome da Desenvolvedora</th>
-                                    <th>Localização</th>
+                                    
+                                    <th style="color: white">Id</th>
+                                    <th style="color: white">Ano</th>
+                                    <th style="color: white"></th>
                                 </tr>
                             </thead>
                             <tbody>
                
                                 <c:forEach items="${lista}" var="obj">
-                                <tr>
+                                    <tr style="color: #3ea662">
                                     <td>${obj.id}</td>
-                                    <td>${obj.nome}</td>
-                                    <td>${obj.localizacao}</td>
+                                    <td>${obj.ano}</td>
+                                
                                     <td>
-                                        <a href="DesenvolvedoraWS?acao=upd&id=${obj.id}" class="btn btn-pill btn-success btn-sm" title="alterar"> 
+                                        <a href="AnoWS?acao=upd&id=${obj.id}" class="btn btn-pill btn-success btn-sm" title="alterar"> 
                                             <i class="fa fa-edit"></i>
                                         </a>
-                                        <a href="DesenvolvedoraWS?acao=del&id=${obj.id}" class="btn btn-pill btn-danger btn-sm" title="excluir"> 
+                                        <a href="AnoWS?acao=del&id=${obj.id}" class="btn btn-pill btn-danger btn-sm" title="excluir"> 
                                             <i class="fa fa-remove"></i>
                                         </a>
 
@@ -64,7 +46,7 @@
 
                             </tbody>
                         </table>
-                        <ul class="pagination">
+<!--                        <ul class="pagination">
                             <li class="page-item">
                                 <a class="page-link" href="#">Prev</a>
                             </li>
@@ -83,7 +65,7 @@
                             <li class="page-item">
                                 <a class="page-link" href="#">Next</a>
                             </li>
-                        </ul>
+                        </ul>-->
                         <div class="row col-lg-12">
                             <a href="add.jsp" class="btn btn-pill btn-primary"> 
                                 <i class="fa fa-plus"></i>

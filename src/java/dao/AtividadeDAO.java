@@ -5,6 +5,7 @@
  */
 package dao;
 
+import java.util.List;
 import modelo.Atividade;
 
 /**
@@ -17,4 +18,7 @@ public class AtividadeDAO extends GenericDAO<Atividade, Integer>{
         super(Atividade.class);
     }
     
+    public List<Atividade> listar(String filtro){
+        return em.createNamedQuery("Atividade.findFilter").setParameter("filtro","%" + filtro.toUpperCase() + "%").getResultList();
+    }    
 }

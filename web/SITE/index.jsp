@@ -47,16 +47,16 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="index.html">IFSul</a> </div>
+      <a class="navbar-brand" href="index.jsp">IFSul</a> </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home" class="page-scroll">Ranking</a></li>
-        <li><a href="#about-section" class="page-scroll">Vencedores</a></li>
-        <li><a href="#works-section" class="page-scroll">Turmas</a></li>
-        <li><a href="#team-section" class="page-scroll">Atividades</a></li>
+        <li><a href="#home" class="page-scroll">Inicio</a></li>
+        <li><a href="#about-section" class="page-scroll">Ranking</a></li>
+        <li><a href="#works-section" class="page-scroll">Pesquisa</a></li>
         <li><a href="#contact-section" class="page-scroll">Cronograma</a></li>
+        <li><a href="#team-section" class="page-scroll">Vencedores</a></li>
         <li><a href="../ADMIN/index.jsp" class="page-scroll">Admin</a></li>
       </ul>
     </div>
@@ -65,37 +65,50 @@
   <!-- /.container-fluid --> 
 </nav>
 
-<!-- Header -->
+<!-- Header INICIO -->
 <header class="text-center" name="home">
   <div class="intro-text">
     <h1>Gincana <span class="color">IFSul</span></h1>
-    <p>VERSÃO BETA 1.0</p>
+    <p></p>
     <div class="clearfix"></div>
     <a href="#works-section" class="btn btn-default btn-lg page-scroll">Veja mais</a> </div>
 </header>
-<!-- About Section -->
+<!-- About Section RANKING-->
 <div id="about-section">
   <div class="container">
     <div class="section-title">
-      <h2>About Us</h2>
+      <h2>RANKING ATUALIZADO</h2>
+      <ul>
+          <li>
+          <ol class="type">
+            <li><a class="active">Acompanhe aqui a pontuação geral das turmas</a></li>
+          </ol>
+          </li>
+      </ul>
       <hr>
     </div>
     <div class="space"></div>
     <div class="row">
       <div class="col-md-4">
-        <h4>Who We Are</h4>
-        <p>Welcome, we are a site that you can find and visualize a huge catalog of games.</p>
+          <h4>Moonknights <a style="font-weight: bold">1350</a><a> pts</a></h4><br>
+          <h4>Null <a style="font-weight: bold">000</a><a> pts</a></h4><br>
+          <h4>Null <a style="font-weight: bold">000</a><a> pts</a></h4><br>
+          <h4>Null <a style="font-weight: bold">000</a><a> pts</a></h4><br>
+          <h4>Null <a style="font-weight: bold">000</a><a> pts</a></h4><br>
+          <h4>Null <a style="font-weight: bold">000</a><a> pts</a></h4><br>
+          <h4>Null <a style="font-weight: bold">000</a><a> pts</a></h4><br>
+        <p></p>
       </div>
     </div>
   </div>
 </div>
 
 
-<!-- Portfolio Section -->
+<!-- Portfolio Section  PESQUISA-->
 <div id="works-section">
   <div class="container"> <!-- Container -->
     <div class="section-title">
-      <h2>Games Available</h2>
+      <h2>PESQUISA</h2>
       <hr>
       <div class="clearfix"></div>
     </div>
@@ -103,7 +116,8 @@
       <ul class="cat">
         <li>
           <ol class="type">
-            <li><a href="SiteWS?acao=site" data-filter="*" class="active">All Games</a></li>
+            <li><a href="SiteWS?acao=site" data-filter="*" class="active">Turmas</a></li>
+            <li><a href="SiteWS?acao=site" data-filter="*" class="active">Atividades</a></li>
           </ol>
         </li>
       </ul>
@@ -114,14 +128,7 @@
                         <table class="table table-responsive-sm">
                             <thead>
                                 <tr>
-                                    <th>Nome Jogo</th>
-                                    <th>Preço</th>
-                                    <th>Genero</th>
-                                    <th>Plataforma</th>
-                                    <th>Classificação</th>
-                                    <th>Disponibilidade</th>
-                                    <th></th>
-                                    
+                                    <th>Ordenado por NOME</th>  
                                 </tr>
                             </thead>
                             <tbody>
@@ -142,85 +149,78 @@
                     </div>
   </div>
 </div>
-
-
-<!-- Team Section -->
-<div id="team-section">
-  <div class="container">
-    <div class="section-title">
-      <h2>Available Platforms</h2>
-      <hr>
-    </div>
-    <div id="row">
-      <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="img/team/play.jpg" alt="..." class="team-img">
-          <div class="caption">
-            <h3>PlayStation</h3>
-            <p>Sony</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="img/team/xbox.jpg" alt="..." class="team-img">
-          <div class="caption">
-            <h3>Xbox</h3>
-            <p>Microsoft</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="img/team/pc.jpg" alt="..." class="team-img">
-          <div class="caption">
-            <h3>PC</h3>
-            <p></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 <!-- Contact Section -->
 <div id="contact-section">
   <div class="container">
     
        
-      <div class="col-md-3 col-sm-6 team">
+<!--      <div class="col-md-3 col-sm-6 team">
         <div class="thumbnail"> 
           <div class="caption">
             <h3>Leonardo Borges</h3>
             <p>Developer</p>
           </div>
         </div>
-      </div>
+      </div>-->
      <div class="section-title center">
-      <h2>Register</h2>
+      <h2>CRONOGRAMA</h2>
+      <ul>
+          <li>
+          <ol class="type">
+            <li><a class="active">Horario e Local das Atividades</a></li>
+          </ol>
+          </li>
+      </ul>
       <hr>
     </div>
-      
-    <div class="col-md-8">
-      <h4>Enter your information</h4>
-      <form name="register" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
+  </div>
+</div>
+<!-- Team Section VENCEDORES -->
+<div id="team-section">
+  <div class="container">
+    <div class="section-title">
+      <h2>MURAL DOS VENCEDORES</h2>
+      <hr>
+    </div>
+      <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="SiteWS?acao=site" data-filter="*" class="active">Informática</a></li>
+            <li><a href="SiteWS?acao=site" data-filter="*" class="active">Agropecuária</a></li>
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div id="row">
+      <div class="col-md-3 col-sm-6 team">
+        <div class="thumbnail"> <img src="img/team/moonknights.jpeg" alt="..." class="team-img">
+          <div class="caption">
+            <h3>MOONKNIGHTS</h3>
+            <p>6º Informática</p>
+            <p>2018</p>
           </div>
         </div>
-        <div class="form-group">
-          <input name="password" id="password" type="password" class="form-control" placeholder="Password" required>
-          <p class="help-block text-danger"></p>
+      </div>
+      <div class="col-md-3 col-sm-6 team">
+        <div class="thumbnail"> <img src="img/team/3.jpeg" alt="..." class="team-img">
+          <div class="caption">
+            <h3>NULL</h3>
+            <p>Nº NULL</p>
+            <p>YYYY</p>
+          </div>
         </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-default">OK</button>
-      </form>
+      </div>
+      <div class="col-md-3 col-sm-6 team">
+        <div class="thumbnail"> <img src="img/team/3.jpeg" alt="..." class="team-img">
+          <div class="caption">
+            <h3>NULL</h3>
+            <p>Nº NULL</p>
+            <p>YYYY</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

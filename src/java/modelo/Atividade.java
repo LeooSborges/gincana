@@ -6,14 +6,15 @@
 package modelo;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
-import javax.persistence.Temporal;
 
 /**
  *
@@ -22,7 +23,8 @@ import javax.persistence.Temporal;
 @Entity
 @NamedQueries({
     @NamedQuery(name = "Atividade.findAll", query = "SELECT a FROM Atividade a"),
-    @NamedQuery(name = "Atividade.findFilter", query = "SELECT a FROM Atividade a WHERE a.atividade like :filtro")
+    @NamedQuery(name = "Atividade.findFilter", query = "select a from Atividade a" +
+            " where UPPER(a.atividade) like :filtro")
 })
 public class Atividade implements Serializable {
 
@@ -34,10 +36,55 @@ public class Atividade implements Serializable {
     private String descricao;
     private String horario;
     private String localidade;
+    private String dia;
     
-    @Temporal(javax.persistence.TemporalType.DATE)
-    private Date data;
+    
 
+    @ManyToMany
+    private List<Turma> turma;
+
+    private String primeiro;
+    
+    private String segundo;
+     
+    private String terceiro;
+      
+    private String quarto;
+
+    public String getPrimeiro() {
+        return primeiro;
+    }
+
+    public void setPrimeiro(String primeiro) {
+        this.primeiro = primeiro;
+    }
+
+    public String getSegundo() {
+        return segundo;
+    }
+
+    public void setSegundo(String segundo) {
+        this.segundo = segundo;
+    }
+
+    public String getTerceiro() {
+        return terceiro;
+    }
+
+    public void setTerceiro(String terceiro) {
+        this.terceiro = terceiro;
+    }
+
+    public String getQuarto() {
+        return quarto;
+    }
+
+    public void setQuarto(String quarto) {
+        this.quarto = quarto;
+    }
+    
+    
+    
     public Integer getId() {
         return id;
     }
@@ -103,12 +150,48 @@ public class Atividade implements Serializable {
         this.localidade = localidade;
     }
 
-    public Date getData() {
-        return data;
+    public String getDia() {
+        return dia;
     }
 
-    public void setData(Date data) {
-        this.data = data;
+    public void setDia(String dia) {
+        this.dia = dia;
     }
+
+
+
+//    public Turma getP2() {
+//        return p2;
+//    }
+//
+//    public void setP2(Turma p2) {
+//        this.p2 = p2;
+//    }
+//
+//    public Turma getP3() {
+//        return p3;
+//    }
+//
+//    public void setP3(Turma p3) {
+//        this.p3 = p3;
+//    }
+//
+//    public Turma getP4() {
+//        return p4;
+//    }
+//
+//    public void setP4(Turma p4) {
+//        this.p4 = p4;
+//    }
+
+    public List<Turma> getTurma() {
+        return turma;
+    }
+
+    public void setTurma(List<Turma> turma) {
+        this.turma = turma;
+    }
+
+
     
 }

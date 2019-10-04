@@ -2,9 +2,9 @@
 <main class="main">
     <!-- Breadcrumb-->
     <ol class="breadcrumb">
-        <li class="breadcrumb-item">Genero</li>
+        <li class="breadcrumb-item">Turma</li>
         <li class="breadcrumb-item">
-            <a href="GeneroWS">Listar</a>
+            <a href="TurmaWS">Listar</a>
         </li>
         <li class="breadcrumb-item">
             <a href="add.jsp">Incluir</a>
@@ -16,10 +16,10 @@
            <div class="row">
               <div class="col-lg-auto">
                 <div class="card">
-                  <div class="card-header">
+                  <div class="card-header" style="color: white; font-weight: bold; background-color: #3ea662;">
                     Cadastro
                   </div>
-                  <div class="card-body">
+                  <div class="card-body" style="color: #3ea662">
                    ${msg}
                   </div>
                 </div>

@@ -3,9 +3,9 @@
 <main class="main">
     <!-- Breadcrumb-->
     <ol class="breadcrumb">
-        <li class="breadcrumb-item">Pontuacao</li>
+        <li class="breadcrumb-item">Colocacao</li>
         <li class="breadcrumb-item">
-            <a href="PontuacaoWS">Listar</a>
+            <a href="ColocacaoWS">Listar</a>
         </li>
 
     </ol>
@@ -18,16 +18,16 @@
                     Cadastro
                   </div>
                   <div class="card-body">
-                      <form action="PontuacaoWS" method="post">
+                      <form action="ColocacaoWS" method="post">
                       
                        <div class="form-group">
                         <div class="input-group">
                           <div class="input-group-prepend">
-                            <span class="input-group-text" style="color: #3ea662">Turma</span>
+                            <span class="input-group-text" style="color: #3ea662">Atividade</span>
                           </div>
-                          <select name="txtTurma">
-                         <c:forEach items="${turma}" var="obj">
-                                <option value="${obj.id}">${obj.turma}</option>
+                          <select name="txtAtividade">
+                         <c:forEach items="${atividade}" var="obj">
+                                <option value="${obj.id}">${obj.atividade}</option>
                           </c:forEach>
                         </select><br><br>
                          
@@ -37,49 +37,58 @@
                        <div class="form-group">
                         <div class="input-group">
                           <div class="input-group-prepend">
-                            <span class="input-group-text" style="color: #3ea662">Pontuacao</span>
+                            <span class="input-group-text" style="color: #3ea662">1°</span>
                           </div>
-                          <input type="text"  name="txtPontuacao" class="form-control">
+                          <select name="txtP1">
+                         <c:forEach items="${p1}" var="obj">
+                                <option value="${obj.id}">${obj.p1}</option>
+                          </c:forEach>
+                        </select><br><br>
                          
                         </div>
-                      </div>
-                      
-                      
-                      <div class="form-group">
+                      </div>  
+                            
+                          <div class="form-group">
                         <div class="input-group">
                           <div class="input-group-prepend">
-                            <span class="input-group-text" style="color: #3ea662">Ano</span>
+                            <span class="input-group-text" style="color: #3ea662">2°</span>
                           </div>
-                            <select name="txtAno">
-                            <c:forEach items="${ano}" var="obj">
-                                <option value="${obj.id}">${obj.ano}</option>
-                            </c:forEach>    
-                            </select><br><br>
-                         
-                        </div>
-                      </div>
-                              
-                     
-                      
-<!--                      <div class="form-group-file">
-                        <div class="input-group">
-                          <div class="input-group-prepend">
-                            <span class="input-group-text" for="file">Alunos</span>
-                          </div>
-                          <input type="file" required name="txtFoto" class="form-control">
+                          <select name="txtP2">
+                         <c:forEach items="${p2}" var="obj">
+                                <option value="${obj.id}">${obj.p2}</option>
+                          </c:forEach>
+                        </select><br><br>
                          
                         </div>
                       </div>
                           
-                      <div class="form-group-file">
+                          <div class="form-group">
                         <div class="input-group">
                           <div class="input-group-prepend">
-                            <span class="input-group-text" for="file">Emblema</span>
+                            <span class="input-group-text" style="color: #3ea662">3°</span>
                           </div>
-                          <input type="file" required name="txtEmblema" class="form-control">
+                          <select name="txtP3">
+                         <c:forEach items="${p3}" var="obj">
+                                <option value="${obj.id}">${obj.p3}</option>
+                          </c:forEach>
+                        </select><br><br>
                          
                         </div>
-                      </div>    -->
+                      </div>
+                          
+                          <div class="form-group">
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" style="color: #3ea662">4°</span>
+                          </div>
+                          <select name="txtP4">
+                         <c:forEach items="${p4}" var="obj">
+                                <option value="${obj.id}">${obj.p4}</option>
+                          </c:forEach>
+                        </select><br><br>
+                         
+                        </div>
+                      </div>
                           
                      
                       <div class="form-group form-actions">

@@ -5,15 +5,16 @@
  */
 package modelo;
 
-import java.io.File;
 import java.io.Serializable;
+import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.ManyToMany;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
 
 /**
  *
@@ -21,8 +22,10 @@ import javax.persistence.NamedQuery;
  */
 @Entity
 @NamedQueries({
-    @NamedQuery(name = "Turma.findAll", query = "SELECT t FROM Turma t"),
-    @NamedQuery(name = "Turma.findFilter", query = "SELECT t FROM Turma t WHERE t.turma like :filtro")
+    @NamedQuery(name = "Turma.findAll", query = "SELECT t FROM Turma t")
+    ,
+    @NamedQuery(name = "Turma.findFilter", query = "select t from Turma t"
+            + " where UPPER(t.turma) like :filtro")
 })
 public class Turma implements Serializable {
 
@@ -32,16 +35,19 @@ public class Turma implements Serializable {
     private Integer id;
     private String turma;
     private String cor;
-    private String endFoto;
-    private String endEmblema;
     private String curso;
     private Integer semestre;
     private String hino;
-    private File videoCurta;
-    
-    @ManyToOne
-    private Pontuacao pontuacao;
-    
+
+    @OneToMany(mappedBy = "turma")
+    private List<Pontuacao> pontuacoes;
+
+    @ManyToMany
+    private List<Atividade> atividades;
+
+    private String endFoto;
+    private String endEmblema;
+//    private File videoCurta;
 
     public Integer getId() {
         return id;
@@ -92,22 +98,6 @@ public class Turma implements Serializable {
         this.cor = cor;
     }
 
-    public String getEndFoto() {
-        return endFoto;
-    }
-
-    public void setEndFoto(String endFoto) {
-        this.endFoto = endFoto;
-    }
-
-    public String getEndEmblema() {
-        return endEmblema;
-    }
-
-    public void setEndEmblema(String endEmblema) {
-        this.endEmblema = endEmblema;
-    }
-
     public String getCurso() {
         return curso;
     }
@@ -132,12 +122,36 @@ public class Turma implements Serializable {
         this.hino = hino;
     }
 
-    public File getVideoCurta() {
-        return videoCurta;
+    public List<Pontuacao> getPontuacoes() {
+        return pontuacoes;
     }
 
-    public void setVideoCurta(File videoCurta) {
-        this.videoCurta = videoCurta;
+    public void setPontuacoes(List<Pontuacao> pontuacoes) {
+        this.pontuacoes = pontuacoes;
     }
-    
+
+    public String getEndFoto() {
+        return endFoto;
+    }
+
+    public void setEndFoto(String endFoto) {
+        this.endFoto = endFoto;
+    }
+
+    public String getEndEmblema() {
+        return endEmblema;
+    }
+
+    public void setEndEmblema(String endEmblema) {
+        this.endEmblema = endEmblema;
+    }
+
+    public List<Atividade> getAtividades() {
+        return atividades;
+    }
+
+    public void setAtividades(List<Atividade> atividades) {
+        this.atividades = atividades;
+    }
+
 }

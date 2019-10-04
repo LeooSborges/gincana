@@ -4,9 +4,9 @@
 <main class="main">
     <!-- Breadcrumb-->
     <ol class="breadcrumb">
-        <li class="breadcrumb-item">Desenvolvedora</li>
+        <li class="breadcrumb-item">Pontuacao</li>
         <li class="breadcrumb-item">
-            <a href="DesenvolvedoraWS">Listar</a>
+            <a href="PontuacaoWS">Listar</a>
         </li>
 
     </ol>
@@ -16,7 +16,7 @@
                 <div class="card">
                     <div class="card-header">
 
-                        <form action="DesenvolvedoraWS" method="get" class="form-horizontal">
+                        <form action="PontuacaoWS" method="get" class="form-horizontal">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="input-group">
@@ -36,25 +36,30 @@
                     </div>
                     <div class="card-body">
                         <table class="table table-responsive-sm">
-                            <thead>
+                            <thead  style="background-color: #3ea662">
                                 <tr>
-                                    <th>ID</th>
-                                    <th>Nome da Desenvolvedora</th>
-                                    <th>Localização</th>
+                                    
+                                    <th style="color: white">Id</th>
+                                    <th style="color: white">Turma</th>
+                                    <th style="color: white">Pontuação</th>
+                                    <th style="color: white">Ano</th>
+                                    <th style="color: white"></th>
                                 </tr>
                             </thead>
                             <tbody>
                
                                 <c:forEach items="${lista}" var="obj">
-                                <tr>
+                                <tr style="color: #3ea662">
                                     <td>${obj.id}</td>
-                                    <td>${obj.nome}</td>
-                                    <td>${obj.localizacao}</td>
+                                    <td>${obj.turma.turma}</td>
+                                    <td>${obj.pontuacao}</td>
+                                    <td>${obj.ano.ano}</td>
+                                
                                     <td>
-                                        <a href="DesenvolvedoraWS?acao=upd&id=${obj.id}" class="btn btn-pill btn-success btn-sm" title="alterar"> 
+                                        <a href="PontuacaoWS?acao=upd&id=${obj.id}" class="btn btn-pill btn-success btn-sm" title="alterar"> 
                                             <i class="fa fa-edit"></i>
                                         </a>
-                                        <a href="DesenvolvedoraWS?acao=del&id=${obj.id}" class="btn btn-pill btn-danger btn-sm" title="excluir"> 
+                                        <a href="PontuacaoWS?acao=del&id=${obj.id}" class="btn btn-pill btn-danger btn-sm" title="excluir"> 
                                             <i class="fa fa-remove"></i>
                                         </a>
 
@@ -64,7 +69,7 @@
 
                             </tbody>
                         </table>
-                        <ul class="pagination">
+<!--                        <ul class="pagination">
                             <li class="page-item">
                                 <a class="page-link" href="#">Prev</a>
                             </li>
@@ -83,9 +88,9 @@
                             <li class="page-item">
                                 <a class="page-link" href="#">Next</a>
                             </li>
-                        </ul>
+                        </ul>-->
                         <div class="row col-lg-12">
-                            <a href="add.jsp" class="btn btn-pill btn-primary"> 
+                            <a href="PontuacaoWS?acao=add" class="btn btn-pill btn-primary"> 
                                 <i class="fa fa-plus"></i>
                             </a>
                         </div>

@@ -5,6 +5,7 @@
  */
 package dao;
 
+import java.util.List;
 import modelo.Turma;
 
 /**
@@ -16,5 +17,9 @@ public class TurmaDAO extends GenericDAO<Turma, Integer>{
     public TurmaDAO(){
         super(Turma.class);
     }
+    
+    public List<Turma> listar(String filtro){
+        return em.createNamedQuery("Turma.findFilter").setParameter("filtro","%" + filtro.toUpperCase() + "%").getResultList();
+    }    
     
 }

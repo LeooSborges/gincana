@@ -6,23 +6,26 @@
 package modelo;
 
 import java.io.Serializable;
-import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 
 /**
  *
  * @author Leo Borges
  */
 @Entity
+@NamedQueries({
+    @NamedQuery(name = "Pontuacao.findAll", query = "SELECT p FROM Pontuacao p"),
+    @NamedQuery(name = "Pontuacao.findFilter", query = "select p from Pontuacao p" +
+            " where UPPER(p.pontuacao) like :filtro")
+})
 public class Pontuacao implements Serializable {
 
-    @OneToMany(mappedBy = "pontuacao")
-    private List<Turma> turmas;
 
     private static final long serialVersionUID = 1L;
     @Id
@@ -31,7 +34,8 @@ public class Pontuacao implements Serializable {
     @ManyToOne
     private Turma turma;
     private Integer pontuacao;
-    private Integer ano;
+    @ManyToOne
+    private Ano ano;
 
     public Integer getId() {
         return id;
@@ -63,7 +67,7 @@ public class Pontuacao implements Serializable {
 
     @Override
     public String toString() {
-        return "modelo.PontuacaoGeral[ id=" + id + " ]";
+        return "modelo.Pontuacao[ id=" + id + " ]";
     }
 
     public Turma getTurma() {
@@ -82,19 +86,11 @@ public class Pontuacao implements Serializable {
         this.pontuacao = pontuacao;
     }
 
-    public List<Turma> getTurmas() {
-        return turmas;
-    }
-
-    public void setTurmas(List<Turma> turmas) {
-        this.turmas = turmas;
-    }
-
-    public Integer getAno() {
+    public Ano getAno() {
         return ano;
     }
 
-    public void setAno(Integer ano) {
+    public void setAno(Ano ano) {
         this.ano = ano;
     }
     

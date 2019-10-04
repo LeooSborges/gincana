@@ -23,9 +23,12 @@
       <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="../home/index.jsp">
+          <h4 style="font-weight: bold">IFSul</h4>
+        <!--
         <img class="navbar-brand-full" src="../img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
         <img class="navbar-brand-minimized" src="../img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo">
+        -->
       </a>
       <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
         <span class="navbar-toggler-icon"></span>
@@ -33,7 +36,8 @@
       
       <ul class="nav navbar-nav ml-auto">
           <li>
-             <a class="dropdown-item" href="/LeoPFinal/SITE/SiteWS">
+<!--             <a class="dropdown-item" href="/WebPrototipo/SITE/SiteWS">-->
+              <a class="dropdown-item" href="/WebPrototipo/SITE/index.jsp">
               <i class="fa fa-lock"></i> Voltar para página do usuário</a>
           
         </li>
@@ -41,33 +45,35 @@
      
     </header>
     <div class="app-body">
-      <div class="sidebar">
+      <div class="sidebar" style="background-color: #3ea662">
         <nav class="sidebar-nav">
           <ul class="nav">
             
+              
+              
             <li class="nav-item ">
-              <a class="nav-link" href="../jogos/JogosWS">
-                <i class="nav-icon icon-cursor"></i> Jogos
+             <a class="nav-link" style="background-color: #3ea662" href="../turma/TurmaWS">
+                  <i class="nav-icon icon-cursor"></i> Turmas
               </a>
               
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="../plataforma/PlataformaWS">
-                <i class="nav-icon icon-cursor"></i> Plataforma
+              <a class="nav-link" style="background-color: #3ea662" href="../atividade/AtividadeWS">
+                <i class="nav-icon icon-cursor"></i> Atividades
               </a>
               
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="../genero/GeneroWS">
-                <i class="nav-icon icon-cursor"></i> Genero
+              <a class="nav-link" style="background-color: #3ea662" href="../ano/AnoWS">
+                <i class="nav-icon icon-cursor"></i> Anos
               </a>
               
             </li>
-             <li class="nav-item ">
-              <a class="nav-link" href="../desenvolvedora/DesenvolvedoraWS">
-                <i class="nav-icon icon-cursor"></i> Desenvolvedora
+            <li class="nav-item ">
+              <a class="nav-link" style="background-color: #3ea662" href="../pontuacao/PontuacaoWS">
+                <i class="nav-icon icon-cursor"></i> Pontuação Geral
               </a>
-       
+            </li>
           </ul>
         </nav>
         <button class="sidebar-minimizer brand-minimizer" type="button"></button>
